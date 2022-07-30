@@ -13,10 +13,14 @@ import {AngularFirestoreModule} from '@angular/fire/compat/firestore'
 import {AngularFireAuthModule} from '@angular/fire/compat/auth'
 import {AngularFireStorageModule} from '@angular/fire/compat/storage'
 import { environment } from '../environments/environment';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

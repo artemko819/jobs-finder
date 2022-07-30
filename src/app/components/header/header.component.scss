@@ -1,0 +1,16 @@
+@import "styles/colors";
+@import "styles/mixins";
+.header{
+    display: flex;
+    padding: 0 20px;
+    height: 60px;
+    background: #fff;
+    @include shadow;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        font-size: 2em;
+        font-weight: bold;
+        color:$primary;
+    }
+}
